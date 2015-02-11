@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+        <!-- <item name="android:actionBarStyle">@style/MyActionBarStyle</item> -->
+        <!-- <item name="android:windowBackground">@drawable/bubbles_tile</item> -->
+        <!-- <item name="android:actionBarWidgetTheme">@style/actionBarTheme</item> -->
+    </style>
+
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <!--<item name="android:background">@drawable/action_bar_background</item>-->
+
+    </style>
+
+    <style name="actionBarTheme" parent="android:Theme.Holo">
+        <item name="android:spinnerDropDownItemStyle">@style/actionBarSpinnerDropDownItemStyle</item>
+        <item name="android:dropDownItemStyle">@style/actionBarDropDownItemStyle</item>
+    </style>
+
+    <style name="actionBarSpinnerDropDownItemStyle" parent="android:Widget.Holo.DropDownItem.Spinner">
+        <!--<item name="android:background">@drawable/bubbles_tile</item>-->
+    </style>
+
+    <style name="actionBarDropDownItemStyle" parent="android:Widget.Holo.DropDownItem">
+        <!--<item name="android:background">@drawable/bubbles_tile</item>-->
+    </style>
+
+</resources>
